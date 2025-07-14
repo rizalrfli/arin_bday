@@ -5,7 +5,7 @@ const wishes = [
   "Tetap jadi pribadi yang cerewet dan ceria yaaaaaaaaaaaaaaaaaaa ✨",
   "Kalo ada apa-apa, jangan sungkan buat cerita ke aku soalnya aku 24/7 ada buat kamu asekk",
   "Jangan lupa senyum di setiap langkahmu, because you are so gorgeous in every smile of yours",
-  "TERAKHIRRR JANGAN TIBA TIBA BERUBAH HUHUHU"
+  "TERAKHIRRR JANGAN TIBA TIBA BERUBAH BIKINN AKUU KAGETTTTTTTTTT",
 ];
 let i = 0;
 
