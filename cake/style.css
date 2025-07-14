@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(135deg, #ffe0f0, #d0f4ff);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #e91e63;
+  margin-bottom: 30px;
+}
+
+.cake {
+  position: relative;
+  width: 200px;
+  margin: 0 auto 20px;
+}
+
+.layer {
+  height: 50px;
+  background: #ff80ab;
+  border: 3px solid #e91e63;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+
+.layer-top {
+  background: #f8bbd0;
+}
+
+.layer-middle {
+  background: #f48fb1;
+}
+
+.layer-bottom {
+  background: #ec407a;
+}
+
+.candle {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 40px;
+  background: #ffcc80;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.flame {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 15px;
+  height: 20px;
+  background: orange;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+  0% { transform: translateX(-50%) scale(1); opacity: 1; }
+  50% { transform: translateX(-48%) scale(1.1); opacity: 0.7; }
+  100% { transform: translateX(-52%) scale(0.9); opacity: 1; }
+}
+
+button {
+  padding: 10px 20px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d81b60;
+}
