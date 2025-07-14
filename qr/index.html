@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Ulang Tahun Garina</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ffe0f0, #e0f7fa);
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e91e63;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card p {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+    .tombol {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+    background: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+
+  .tombol:hover {
+    background: #f50057;
+  }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Galeri Ulang Tahun Garina 🎉</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="1.jpg" alt="Garina 1">
+      <p>Kayutangan pertama kali nih</p>
+    </div>
+    <div class="card">
+      <img src="2.jpg" alt="Garina 2">
+      <p>Foto yang aku sukaa sampe sekarang bwhahaha</p>
+    </div>
+    <div class="card">
+      <img src="3.jpg" alt="Garina 3">
+      <p>Momen kamu lagi baca pas neduh dari ujan</p>
+    </div>
+    <div class="card">
+      <img src="4.jpg" alt="Garina 4">
+      <p>jadi Mahasiswa yuinnnn</p>
+    </div>
+  </div>
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="index.html" class="tombol">Kembali ke Halaman Utama</a>
+</body>
+</html>
